@@ -1,7 +1,6 @@
 
 const findBestEmployee = function (employees) {
 
-
     let bestEmployee = 0;
     let responseKey;
   
@@ -13,11 +12,12 @@ const findBestEmployee = function (employees) {
     } 
     return responseKey;
     };
-
+  
    
 /*
  * Вызовы функции для проверки работоспособности твоей реализации.
 //  */
+
 console.log(
   findBestEmployee({
     ann: 29,
